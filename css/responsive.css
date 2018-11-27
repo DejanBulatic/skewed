@@ -2,31 +2,61 @@
 
 
 @media(min-width:576px){
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 }
 
 
 @media(min-width:768px){
-    
-    
-    
-    
-    
+
+
+    header .navbar-nav li {
+        text-align: center;
+        background: transparent !important;
+        border-bottom: 2px solid transparent;
+        transition: 0.5s linear;
+    }
+
+    header .navbar-nav li:last-of-type {
+        border-bottom: 2px solid transparent;
+    }
+
+    header .navbar-nav li:hover,
+    header .navbar-nav li.active {
+        border-bottom: 2px solid #F7CC4B;
+    }
+
+    header .navbar-nav li a {
+        font-family: 'PT Sans', sans-serif;
+        text-transform: uppercase;
+        color: #fff !important;
+        transition: 0.35s linear;
+    }
+
+    #main-menu {
+        margin:  0;
+    }
+    header .navbar-brand {
+        max-width: 120px;
+    }
+
 }
 
 
 @media(min-width:992px){
-    
+
     html{
         font-size: 16px;
     }
-    
-    
+
+    header .navbar-brand {
+        max-width: 250px;
+    }
+
 }
 
 
@@ -34,9 +64,9 @@
 
 
 @media(min-width:1200px){
-    
-    
-    
-    
-    
+
+
+
+
+
 }

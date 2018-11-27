@@ -2,8 +2,69 @@
 html{
     font-size: 14px;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #B1B1B1;
+}
 
 img{
     max-width: 100%;
 }
+a {
+    text-decoration: none;
+}
+.text-warning {
+    color: #F7CC4B !important;
+}
+.text-dark {
+    color: #222222 !important;
+}
+/**header start**/
+header .navbar-brand {
+    max-width: 50%;
+}
+
+header .navbar-nav li {
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #F7CC4B;
+    transition: 0.5s linear;
+}
+
+header .navbar-nav li:last-of-type {
+    border-bottom: none;
+}
+
+header .navbar-nav li:hover,
+header .navbar-nav li.active {
+    background: #F7CC4B;
+}
+
+header .navbar-nav li a {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: #222222 !important;
+    transition: 0.35s linear;
+    font-size: 14px;
+}
+
+header .navbar-nav li:hover a,
+header .navbar-nav li.active a {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(247, 204, 75);
+    border-color: rgb(247, 204, 75);
+}
+header button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+#main-menu {
+    margin:  0 -15px;
+}
+/**header end**/
 
