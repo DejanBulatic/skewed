@@ -71,7 +71,7 @@ header button:focus {
 .hero {
     background-size: cover;
     background-position: center center;
-    padding: 170px 0 150px;
+    padding: 160px 0 140px;
     position: relative;
 }
 
@@ -93,4 +93,7 @@ header button:focus {
     display: block;
 }
 /**hero section end**/
+/**about us start**/
+
+/**about us end**/
 
