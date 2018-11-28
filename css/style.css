@@ -67,4 +67,30 @@ header button:focus {
     margin:  0 -15px;
 }
 /**header end**/
+/**hero section start**/
+.hero {
+    background-size: cover;
+    background-position: center center;
+    padding: 170px 0 150px;
+    position: relative;
+}
+
+.hero h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+.hero:after {
+    content: '';
+    background: url('assets/bottom-right.png') no-repeat bottom center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+}
+/**hero section end**/
 
