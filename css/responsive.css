@@ -89,8 +89,21 @@
         height: 90px;
     }
 
+
+    .video-wrapper {
+        max-width: 70%;
+    }
+
     .team-lead {
         margin-bottom: 100px !important;
+    }
+
+    .parallax:before {
+        height: 90px;
+    }
+
+    .parallax:after {
+        height: 90px;
     }
 }
 
