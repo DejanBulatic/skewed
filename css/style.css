@@ -102,7 +102,8 @@ header button:focus {
 }
 /**hero section end**/
 /**video start**/
-.video:before {
+.video:before,
+.portfolio:before {
     content: '';
     background: url('assets/top-left.png') no-repeat top center;
     background-size: 100% 100%;
@@ -114,7 +115,8 @@ header button:focus {
     display: block;
 }
 
-.video:after {
+.video:after,
+.portfolio:after {
     content: '';
     background: url('assets/bottom-right.png') no-repeat bottom center;
     background-size: 100% 100%;
@@ -207,4 +209,41 @@ header button:focus {
     max-width: 573px;
 }
 /**parallax section end**/
+/**portfolio start**/
+.portfolio-hover {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: none;
+}
+
+.portfolio figure:hover .portfolio-hover {
+    display: block;
+}
+
+.portfolio-hover nav{
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.portfolio-hover nav .fa {
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    color: #101010;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    transition: 0.3s linear;
+}
+
+.portfolio-hover nav .fa:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+/**portfolio end**/
 
