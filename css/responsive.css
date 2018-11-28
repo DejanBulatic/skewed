@@ -67,6 +67,25 @@
     .hero {
         padding: 280px 0 250PX;
     }
+    
+    .section-title {
+    font-size: 60px;
+}
+
+.pseudo {
+    padding: 200px 0;
+}
+
+.hero:after {
+    height: 90px;
+}
+.video:before {
+    height: 90px;
+}
+
+.video:after {
+    height: 90px;
+}
 }
 
 
