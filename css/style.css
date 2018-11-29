@@ -67,6 +67,7 @@ header .navbar-nav li.active a {
     color: rgb(247, 204, 75);
     border-color: rgb(247, 204, 75);
 }
+
 header button:focus {
     outline: 1px dotted;
     outline: 0px auto -webkit-focus-ring-color;
@@ -81,7 +82,7 @@ header button:focus {
     background-size: cover;
     background-position: center center;
     padding: 160px 0 140px;
- }
+}
 
 .hero h2 {
     font-family: 'PT Sans', sans-serif;
@@ -246,4 +247,20 @@ header button:focus {
     border: 1px solid #fff;
 }
 /**portfolio end**/
+/**achievements start**/
+.achievements .achievements-item .fa {
+    font-size: 60px;
+    color: #000;
+}
+
+.achievements .achievements-item .big-p {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.achievements .achievements-bottom-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+}
+/**achievements end**/
 

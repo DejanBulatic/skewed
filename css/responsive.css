@@ -109,6 +109,18 @@
     .parallax:after {
         height: 90px;
     }
+    
+    .portfolio:before {
+        height: 90px;
+    }
+
+    .portfolio:after {
+        height: 90px;
+    }
+    
+    .achievements .achievements-wrapper {
+        margin-bottom: 110px !important;
+    }
 }
 
 
