@@ -264,3 +264,35 @@ header button:focus {
 }
 /**achievements end**/
 
+/**up to date start**/
+.up-to-date .form-wrapper {
+    max-width: 500px;
+}
+
+.up-to-date .form-wrapper .form-control {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.up-to-date .form-wrapper input::placeholder {
+    color: #fff;
+}
+
+.form-wrapper .form-control:focus {
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 0 3px #fff inset;
+}
+
+.up-to-date:before {
+    content: '';
+    background: url('assets/top-right.png') no-repeat top center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+/**up to date end**/
+

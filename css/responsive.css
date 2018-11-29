@@ -57,6 +57,10 @@
     .principles {
         padding: 100px 0 !important;
     }
+    
+    .up-to-date {
+        padding: 150px 0 100px !important;
+    }
 }
 
 
@@ -121,6 +125,15 @@
     .achievements .achievements-wrapper {
         margin-bottom: 110px !important;
     }
+    
+    .up-to-date .form-wrapper {
+    max-width: 80% !important;
+}
+
+.up-to-date:before {
+        height: 90px;
+    }
+    
 }
 
 
