@@ -238,13 +238,11 @@ header button:focus {
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid transparent;
     border-radius: 50px;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 
 .portfolio-hover nav .fa:hover {
-    color: #fff;
-    background: transparent;
-    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
 }
 /**portfolio end**/
 /**achievements start**/
@@ -295,4 +293,35 @@ header button:focus {
     display: block;
 }
 /**up to date end**/
+/**footer start**/
+footer .footer-content a {
+    text-decoration: none;
+    color: #fff;
+}
 
+footer .footer-content .fa {
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 6px;
+    background: transparent;
+    transition: 0.2s linear;
+}
+
+footer .footer-content .fa:hover {
+    text-shadow:
+        0 0 5px #F7CC4B,
+        0 0 10px #F7CC4B,
+        0 0 20px #F7CC4B,
+        0 0 40px #F7CC4B;
+    box-shadow: 
+        0 0 5px #F7CC4B,
+        0 0 10px #F7CC4B,
+        0 0 5px #F7CC4B inset;
+}
+
+
+/**footer end**/
