@@ -2,141 +2,140 @@
 
 
 @media(min-width:576px){
-
-
-    .team-lead {
-        margin-bottom: 50px !important;
-    }
-
-
-
+    
+    
+    
+    
+    
+    
 }
 
 
 @media(min-width:768px){
-
-
-    header .navbar-nav li {
-        text-align: center;
-        background: transparent !important;
-        border-bottom: 2px solid transparent;
-        transition: 0.5s linear;
-    }
-
-    header .navbar-nav li:last-of-type {
-        border-bottom: 2px solid transparent;
-    }
-
-    header .navbar-nav li:hover,
-    header .navbar-nav li.active {
-        border-bottom: 2px solid #F7CC4B;
-    }
-
-    header .navbar-nav li a {
-        font-family: 'PT Sans', sans-serif;
-        text-transform: uppercase;
-        color: #fff !important;
-        transition: 0.35s linear;
-    }
-
-    #main-menu {
-        margin:  0;
-    }
-    header .navbar-brand {
-        max-width: 120px;
-    }
-
-    .hero h2 {
-        font-size: 60px;
-    }
-
-    .about {
-        padding: 100px 0 !important;
-    }
     
-    .principles {
-        padding: 100px 0 !important;
-    }
     
-    .up-to-date {
-        padding: 150px 0 100px !important;
-    }
     
-    footer {
-        padding: 100px 0 100px !important;
-    }
+    .navbar-nav li{
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    transition: 0.1s linear;
+}
+
+
+
+.navbar-nav li:hover a,
+.navbar-nav li a.active{
+    background: transparent;
+    border-bottom: 1px solid #f7cc4b;
+}
+
+.navbar-nav li a.nav-link{
+
+    color:#fff !important;
+    transition: 0.5s linear;
+}
+
+.navbar-nav li:hover a.nav-link,
+.navbar-nav li a.active{
+    color:#fff !important;
+}
+
+#main-menu{
+    margin: 0px;
+}
+
+.navbar-brand{
+    max-width: 130px;
+}
+    
+
+.hello h2{
+    
+    font-size: 60px !important;
+}
+
+
+
+.achievements .achievements-value{
+    font-size: 50px;
+    letter-spacing: -2.5px;
+}
+    
+    
 }
 
 
 @media(min-width:992px){
-
+    
     html{
         font-size: 16px;
     }
-
-    header .navbar-brand {
-        max-width: 250px;
-    }
-
-    .hero {
-        padding: 280px 0 250PX;
-    }
-
-    .section-title {
-        font-size: 60px;
-    }
-
-    .pseudo {
-        padding: 200px 0;
-    }
-
-    .hero:after {
-        height: 90px;
-    }
-    .video:before {
-        height: 90px;
-    }
-
-    .video:after {
-        height: 90px;
-    }
-
-
-    .video-wrapper {
-        max-width: 70%;
-    }
-
-    .team-lead {
-        margin-bottom: 100px !important;
-    }
-
-    .parallax:before {
-        height: 90px;
-    }
-
-    .parallax:after {
-        height: 90px;
-    }
     
-    .portfolio:before {
-        height: 90px;
-    }
-
-    .portfolio:after {
-        height: 90px;
-    }
-    
-    .achievements .achievements-wrapper {
-        margin-bottom: 110px !important;
-    }
-    
-    .up-to-date .form-wrapper {
-    max-width: 80% !important;
+    .navbar-brand{
+    max-width: 250px;
 }
 
-.up-to-date:before {
-        height: 90px;
-    }
+.navbar-nav li a{
+    padding: 8px 15px !important;
+}
+
+.hello{
+    padding: 300px 0;
+}
+
+.lead-slider-wrapper:after{
+    height: 150px;
+}
+
+.lead-slider-wrapper .owl-dots{
+    bottom: 200px;
+}
+
+.custom-padding{
+    padding: 100px 0 !important;
+}
+
+
+
+.about h2{
+    font-size:  60px;
+}
+
+.section-title{
+    font-size: 60px;
+}
+
+.pseudo{
+    padding: 250px 0;
+}
+
+.video:before, .video:after,
+.parallax:before, .parallax:after,
+.portfolio:before, .portfolio:after,
+.subscribe:before
+{
+    height: 150px;
+}
+    
+
+.team figure{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+
+.achievements .achievements-value{
+    font-size: 60px;
+    letter-spacing: -2.5px;
+}
+
+
+.testimonials .testimonials-item p{
+    font-size: 27px;
+}
     
 }
 
@@ -145,11 +144,22 @@
 
 
 @media(min-width:1200px){
+    
+    
+    
+    .hello h2{
+    
+    font-size: 82px !important;
+}
+    
+    
 
-    .hero h2 {
-        font-size: 82px;
-    }
-
-
-
+.team figure{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+    
 }
